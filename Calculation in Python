@@ -1,0 +1,25 @@
+# simple calculatioon funtion
+print("Select an Opration")
+print("press 1. for  ADD")
+print("press 2. for  Subtract")
+print("press 3. for  Divide")
+print("press 4. for  Multiply")
+
+operation = input("Enter a number for Opration (1/2/3/4):")
+
+# Inputform  user
+num1 = float(input("Enter the first number :"))
+num2 = float(input("Enter the Secound number :"))
+
+
+# backend 
+if operation == '1':
+    print(f"{num1} + {num2} = {num1 + num2}")
+elif operation == '2':
+    print(f"{num1} - {num2}= {num1 - num2}")
+elif operation == '3':
+    print(f"{num1} / {num2} ={num1 / num2}")
+elif operation == '4':
+    print(f"{num1} * {num2} ={num1 * num2}")
+else:
+    print("Invalid input")
